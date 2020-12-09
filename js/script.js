@@ -1,12 +1,13 @@
 $(window).on("load", function() {
 
-	$(".loader .inner").fadeOut(300, function() {
-		$(".loader").fadeOut(300);
+	$(".loader .inner").fadeOut(200, function() {
+		$(".loader").fadeOut(200);
 	});
+	
 	$(".items").isotope({
 		filter: '*',
 		animationOptions: {
-			duration: 1000,
+			duration: 500,
 			easing: 'linear',
 			queue: false
 		}
